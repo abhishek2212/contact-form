@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background: #d9e6f3;
+  color: #485e74;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
+}
+
+.main-container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+
+}
+.container{
+  background-color: rgb(77, 196, 196);
+  padding: 40px;
+}
+.container h2 , p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+}
+.container p{
+  margin: 5px;
+}
+
+.contact{
+  background-color: #f9feff;
+}
+
+/* form style */
+.contact form{
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  grid-gap: 10px;
+}
+
+.contact form label{
+  display: block;
+  color: #485e74;
+}
+
+.contact form p{
+  margin: 0px;
+}
+
+.contact form .full{
+  grid-column: 1/3;
+}
+
+.contact form button,.contact form input, .contact form textarea{
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #a9d7ff;
+}
+.contact form textarea{
+  resize: none;
+}
+
+.contact form button{
+  background-color: #8ba7f1;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact form button:hover,.contact form button:focus{
+  background-color: #7c7c7d;
+  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+} 
